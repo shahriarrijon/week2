@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css
+
+
+
+    ">
+    <!-- Global stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
+        type="text/css">
+    <!-- <link href="global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css"> -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/components.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/colors.min.css" rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+
+    <!-- Core JS files -->
+    <script src="global_assets/js/main/jquery.min.js"></script>
+    <script src="global_assets/js/main/bootstrap.bundle.min.js"></script>
+    <script src="global_assets/js/plugins/loaders/blockui.min.js"></script>
+    <script src="global_assets/js/plugins/ui/ripple.min.js"></script>
+    <script src="global_assets/js/demo_pages/form_select2.js"></script>
+    <!--  /core JS files -->
+
+    <!-- Theme JS files -->
+    <script src="assets/js/app.js"></script>
+    <!--  /theme J-->
+</head>
+<body>
+    <div class="card">
+        <div class="card-header bg-teal-800 text-white header-elements-inline">
+            <h6 class="card-title">Import LC Open</h6>
+            <div class="header-elements">
+                <div class="list-icons">
+                    <a class="list-icons-item" data-action="collapse"></a>
+                    <a class="list-icons-item ui-sortable-handle" data-action="move"></a>
+                    <a class="list-icons-item" data-action="reload"></a>
+                    <a class="list-icons-item" data-action="remove"></a>
+                    <a class="list-icons-item" data-action="fullscreen"></a>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="card">
+             
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-4  d-flex p-3 ">
+                            <label style="width: 45%" class="pt-3 ">File No:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="text" class="form-control"
+                                    placeholder="File No">
+                            </div>
+                        </div>
+                        <div class="col-lg-4  d-flex p-3">
+                            <label style="width: 45%" class="pt-3">Request Date:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="date" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-lg-4  d-flex p-3">
+                            <label style="width: 45%" class="pt-3">Amount:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="text" class="form-control"
+                                    placeholder="Amount">
+                            </div>
+                        </div>
+                        <div class="col-lg-4  d-flex p-3">
+                            <label style="width: 45%" class="pt-3">Suplier:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="text" class="form-control"
+                                    placeholder="Suplier">
+                            </div>
+                        </div>
+                        <div class="col-lg-8  d-flex  p-3">
+                            <label style="width: 18%" class="pt-3">Bank:</label>
+                            <select class="  form-control select  ">
+                                <option value="AZ">A</option>
+                                <option value="CO">B</option>
+                            </select>
+                        </div>
+                        
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="card-header bg-teal-800 text-white header-elements-inline">
+                <h6 class="card-title">Payment Info</h6>
+                <div class="header-elements">
+                    <div class="list-icons">
+                        <a class="list-icons-item" data-action="collapse"></a>
+                        <a class="list-icons-item ui-sortable-handle" data-action="move"></a>
+                        <a class="list-icons-item" data-action="reload"></a>
+                        <a class="list-icons-item" data-action="remove"></a>
+                        <a class="list-icons-item" data-action="fullscreen"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+             
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-4  d-flex p-3 ">
+                            <label style="width: 45%" class="pt-3 ">LC Margin:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="text" class="form-control"
+                                    placeholder="LC Margin">
+                            </div>
+                        </div>
+                        <div class="col-lg-4  d-flex p-3">
+                            <label style="width: 45%" class="pt-3">Tolarance(+/-):</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="text" class="form-control" placeholder="Tolarance(+/-)">
+                            </div>
+                        </div>
+                        <div class="col-lg-4  d-flex  p-3">
+                            <label style="width: 45%" class="pt-3">Shipment By:</label>
+                            <select class="  form-control select  ">
+                                <option value="AZ">A</option>
+                                <option value="CO">B</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-4  d-flex  p-3">
+                            <label style="width: 45%" class="pt-3">LC Payment Type:</label>
+                            <select class="  form-control select  ">
+                                <option value="AZ">A</option>
+                                <option value="CO">B</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-4  d-flex  p-3">
+                            <label style="width: 45%" class="pt-3">Tenor:</label>
+                            <select class="  form-control select  ">
+                                <option value="AZ">A</option>
+                                <option value="CO">B</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-4  d-flex  p-3">
+                            <label style="width: 45%" class="pt-3">From Date Of:</label>
+                            <select class="  form-control select  ">
+                                <option value="AZ">A</option>
+                                <option value="CO">B</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-4  d-flex  p-3">
+                            <label style="width: 45%" class="pt-3">Insurance Company:</label>
+                            <select class="  form-control select  ">
+                                <option value="AZ">A</option>
+                                <option value="CO">B</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-4  d-flex p-3">
+                            <label style="width: 45%" class="pt-3">LCA From No:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="text" class="form-control" placeholder="LCA From No">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 p-3">
+
+
+                            <div class="form-group mb-3 mb-md-2">
+                                <label style="width: 35%" class="pt-3">Trans Shipment Allow:</label>
+                                <div style="width: 25% !important;" class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" name="custom-inline-radio" id="custom_radio_inline_unchecked" checked="">
+                                    <label class="custom-control-label" for="custom_radio_inline_unchecked">Yes</label>
+                                </div>
+
+                                <div style="width: 25% !important;" class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" name="custom-inline-radio" id="custom_radio_inline_checked">
+                                    <label class="custom-control-label" for="custom_radio_inline_checked">No</label>
+                                </div>
+                            </div>
+
+                        </div>
+                       
+                        <div class="col-lg-4  d-flex p-3">
+                            <label style="width: 45%" class="pt-3">Cover Note No:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="text" class="form-control"
+                                    placeholder="Cover Note No">
+                            </div>
+                        </div>
+                        <div class="col-lg-4  d-flex p-3">
+                            <label style="width: 45%" class="pt-3">Cover Note Date:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="date" class="form-control"
+                                    >
+                            </div>
+                        </div>
+                        <div class="col-lg-4 p-3">
+
+
+                            <div class="form-group mb-3 mb-md-2">
+                                <label style="width: 35%" class="pt-3">Part Shipment Allow:</label>
+                                <div style="width: 25% !important;" class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" name="custom-inline-radio" id="custom_radio_inline_unchecked" checked="">
+                                    <label class="custom-control-label" for="custom_radio_inline_unchecked">Yes</label>
+                                </div>
+
+                                <div style="width: 25% !important;" class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" name="custom-inline-radio" id="custom_radio_inline_checked">
+                                    <label class="custom-control-label" for="custom_radio_inline_checked">No</label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4  d-flex p-3">
+                            <label style="width: 45%" class="pt-3">Shipment Date:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="date" class="form-control"
+                                    >
+                            </div>
+                        </div>
+                        <div class="col-lg-4  d-flex p-3">
+                            <label style="width: 45%" class="pt-3">Expire Date:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="date" class="form-control"
+                                    >
+                            </div>
+                        </div>
+                        <div class="col-lg-4 p-3">
+
+
+                            <div class="form-group mb-3 mb-md-2">
+                                <label style="width: 35%" class="pt-3">Is Confirmation:</label>
+                                <div style="width: 25% !important;" class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" name="custom-inline-radio" id="custom_radio_inline_unchecked" checked="">
+                                    <label class="custom-control-label" for="custom_radio_inline_unchecked">Yes</label>
+                                </div>
+
+                                <div style="width: 25% !important;" class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" name="custom-inline-radio" id="custom_radio_inline_checked">
+                                    <label class="custom-control-label" for="custom_radio_inline_checked">No</label>
+                                </div>
+                            </div>
+
+                        </div>
+                       
+                        
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="card-header bg-teal-800 text-white header-elements-inline">
+                <h6 class="card-title">LC Info</h6>
+                <div class="header-elements">
+                    <div class="list-icons">
+                        <a class="list-icons-item" data-action="collapse"></a>
+                        <a class="list-icons-item ui-sortable-handle" data-action="move"></a>
+                        <a class="list-icons-item" data-action="reload"></a>
+                        <a class="list-icons-item" data-action="remove"></a>
+                        <a class="list-icons-item" data-action="fullscreen"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+             
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-4  d-flex p-3 ">
+                            <label style="width: 45%" class="pt-3 ">LC No:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="text" class="form-control"
+                                    placeholder="LC No">
+                            </div>
+                        </div>
+                        <div class="col-lg-4  d-flex p-3 ">
+                            <label style="width: 45%" class="pt-3 ">B Bank Ref No:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="text" class="form-control"
+                                    placeholder="B Bank Ref No">
+                            </div>
+                        </div>
+                        <div class="col-lg-4  d-flex p-3 ">
+                            <label style="width: 45%" class="pt-3 ">LC Date:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="date" class="form-control"
+                                    placeholder="B Bank Ref No">
+                            </div>
+                        </div>
+                        <div class="col-lg-4  d-flex p-3 ">
+                            <label style="width: 45%" class="pt-3 ">Recieve By:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="text" class="form-control"
+                                    placeholder="Recieve By">
+                            </div>
+                        </div>
+                        <div class="col-lg-4  d-flex p-3 ">
+                            <label style="width: 45%" class="pt-3 ">Recieve Date:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="date" class="form-control"
+                                    placeholder="Recieve By">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 p-3">
+                            <button type="button" class="btn btn-success legitRipple">Save</button>
+                        </div>
+                       
+                       
+                        
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="card-header bg-teal-800 text-white header-elements-inline">
+                <h6 class="card-title">Acknowledgment</h6>
+                <div class="header-elements">
+                    <div class="list-icons">
+                        <a class="list-icons-item" data-action="collapse"></a>
+                        <a class="list-icons-item ui-sortable-handle" data-action="move"></a>
+                        <a class="list-icons-item" data-action="reload"></a>
+                        <a class="list-icons-item" data-action="remove"></a>
+                        <a class="list-icons-item" data-action="fullscreen"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+
+
+             
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-5  d-flex p-3 ">
+                            <label style="width: 45%" class="pt-3 ">Forward to Party:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="date" class="form-control"
+                                    placeholder="LC No">
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-1  d-flex p-3 ">
+                            <div>
+                                <button type="button" class="btn btn-success legitRipple">Save</button>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-5  d-flex p-3 ">
+                            <label style="width: 60%" class="pt-3 ">Acknowledgment Date:</label>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="date" class="form-control"
+                                    >
+                            </div>
+                        </div>
+                        <div class="col-lg-1  d-flex p-3 ">
+                            <div>
+                                <button type="button" class="btn btn-success legitRipple">Save</button>
+                            </div>
+                        
+                       
+                       
+                        
+                    </div>
+                   
+                </div>
+            </div>
+           
+        </div>
+        <div style="width: 100% ;display: flex; justify-content: end">
+            <button type="button" class="btn btn-success legitRipple">Save</button>
+        </div>
+        
+    </div>
+ 
+</body>
+</html>

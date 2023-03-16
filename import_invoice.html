@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css
+
+
+
+">
+<!-- Global stylesheets -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
+    type="text/css">
+<!-- <link href="global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css"> -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/components.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/colors.min.css" rel="stylesheet" type="text/css">
+<!-- /global stylesheets -->
+
+<!-- Core JS files -->
+<script src="global_assets/js/main/jquery.min.js"></script>
+<script src="global_assets/js/main/bootstrap.bundle.min.js"></script>
+<script src="global_assets/js/plugins/loaders/blockui.min.js"></script>
+<script src="global_assets/js/plugins/ui/ripple.min.js"></script>
+<script src="global_assets/js/demo_pages/form_select2.js"></script>
+<!--  /core JS files -->
+
+<!-- Theme JS files -->
+<script src="assets/js/app.js"></script>
+<!--  /theme J-->
+</head>
+<body>
+    <div class="card" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; " data-select2-id="91">
+        <div class="card-header bg-teal-800 text-white header-elements-inline">
+            <h6 class="card-title">Import Invoice</h6>
+            <div class="header-elements">
+                <div class="list-icons">
+                    <a class="list-icons-item" data-action="collapse"></a>
+                    <a class="list-icons-item ui-sortable-handle" data-action="move"></a>
+                    <a class="list-icons-item" data-action="reload"></a>
+                    <a class="list-icons-item" data-action="remove"></a>
+                    <a class="list-icons-item" data-action="fullscreen"></a>
+                </div>
+            </div>
+        </div>
+        <div class="card-body" data-select2-id="90">
+
+           <div class="row">
+            <div class="col-lg-6">
+                <div class="pb-3"
+                style="display: flex; justify-content:start ; align-items: start; flex-direction: column;">
+    
+    
+                <form class="d-flex" style="  width: 100%">
+                    <input
+                        style="width: 100%; border: 1px solid #C5C5C5; border-top: 1px solid #C5C5C5 !important; padding: 5px;border-radius: 0.185rem; border-top-right-radius: 0px !important; border-bottom-right-radius: 0px !important "
+                        class="form-control me-2" type="search"
+                        placeholder="Search by LC No" aria-label="Search">
+                    <button
+                        style="border-top-left-radius: 0px !important; border-bottom-left-radius: 0px !important"
+                        id="search" class="btn btn-outline-success legitRipple" type="submit"><i
+                            class="fas fa-search"></i></button>
+                </form>
+            </div>
+            </div>
+
+           <div class="col-lg-6">
+            <div class="pb-3"
+            style="display: flex; justify-content:start ; align-items: start; flex-direction: column;">
+
+
+            <form class="d-flex" style="  width: 100%">
+                <input
+                    style="width: 100%; border: 1px solid #C5C5C5; border-top: 1px solid #C5C5C5 !important; padding: 5px;border-radius: 0.185rem; border-top-right-radius: 0px !important; border-bottom-right-radius: 0px !important "
+                    class="form-control me-2" type="search"
+                    placeholder="Search by Invoice No" aria-label="Search">
+                <button
+                    style="border-top-left-radius: 0px !important; border-bottom-left-radius: 0px !important"
+                    id="search" class="btn btn-outline-success legitRipple" type="submit"><i
+                        class="fas fa-search"></i></button>
+            </form>
+        </div>
+           </div>
+           </div>
+    
+    
+            <table class="table table-bordered" data-select2-id="89">
+                <thead>
+                    <tr class="bg-teal-800 text-white text-center">
+                        <th>SL</th>
+                        <th>Invoice No</th>
+                        <th>Invoice Date</th>
+                        <th>Invoice Type</th>
+                        <th>Current Status</th>
+                        <th>Bank Status</th>
+                        <th>Praprts No</th>
+                        <th>Freight Rate</th>
+                        <th>Payment Type</th>
+                        <th>LC No</th>
+                        <th>Value</th>
+                        <th>LC Date</th>
+                        <th>Action</th>
+                        
+    
+                    </tr>
+                </thead>
+                <tbody data-select2-id="88">
+                    <tr class="text-center landing-cost" data-select2-id="87">
+                        <td>
+                            1
+                        </td>
+                        <td>AUDILG1111</td>
+                        <td>27Dec</td>
+                        <td>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="number" class="form-control">
+                            </div>
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td></td>
+                        <td>Regular</td>
+                        
+                        <td>
+                            <div style="width: 100%">
+                                <input style="width: 100%" type="number" class="form-control">
+                            </div>
+                        </td>
+                    
+                        <td>000045</td>
+                        <td>150000</td>
+                        <td>30Dec</td>
+                        <td><button type="button" class="btn btn-sm btn-danger text-white landing-cost-row legitRipple"><i class="fas fa-times"></i></button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="12" style="text-align: end
+                        ;">
+                            Total
+    
+                        </td>
+                        <td >
+                            TK 999000
+                        </td>
+                    
+                    </tr>
+    
+                </tbody>
+            </table>
+            <div style="width: 100% ;display: flex; justify-content: end " class="mt-3">
+                <button type="button" class="btn btn-success legitRipple">Save</button>
+            </div>
+    
+    
+           
+    
+    
+    
+    
+    
+        </div>
+        
+    
+    </div>
+   
+    
+</body>
+</html>
+
+
+

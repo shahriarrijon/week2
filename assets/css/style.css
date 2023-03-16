@@ -1,0 +1,75 @@
+body{
+    background-image: url(../img/home-menu-bg-overlay.svg);
+    background-color: #77717e!important;
+}
+
+nav .bg-indigo-400{
+    background-color: transparent !important;
+    box-shadow: none;
+    padding-bottom: 75px;;
+}
+
+.navbar-nav-link .badge{
+    width: max-content;
+    background-color: #017e84 !important;
+    font-size: 10px;
+    bottom: 19px;
+    position: absolute;
+    top: 9px !important;
+    right: 8px !important;
+    
+}
+.navbar-nav-link{
+    padding-right: 2px !important;
+}
+.navbar-nav-link i{
+    font-size: 14px;
+}
+.navbar-nav-link .icon-history{
+    color:#8f8f8f;
+}  
+
+.navbar-nav-link .jalal{
+    font-size:  10px; 
+}
+.box{
+    display: flex;
+    width: max;
+}
+.box img{
+    width: 70px;
+}
+.box figure{
+    margin-left: 50px;
+}
+
+.container{
+   width: max-content !important;
+
+}
+.box{
+    width: max-content;
+}
+figure a{
+    color: white;
+    text-align: center;
+}
+figure a:hover{
+    color: white;
+}
+figure a img:hover{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 4%;
+    box-shadow: 16px 21px 17px -17px rgba(107,41,130,0.56);
+    -webkit-box-shadow: 16px 21px 17px -17px rgba(107,41,130,0.56);
+    -moz-box-shadow: 16px 21px 17px -17px rgba(107,41,130,0.56);
+    transition: all 0.3s ease 0s;
+}
+figure{
+    margin-left: 75px !important;
+}
+
+
+    
